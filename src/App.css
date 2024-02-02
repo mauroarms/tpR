@@ -1,0 +1,80 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #ff833a;
+  background-image: linear-gradient(15deg, #ff833a 0%, #ffdc2b 100%);
+}
+
+.contenido {
+  flex-grow: 1;
+}
+.footer {
+  margin-top: 60px;
+}
+
+.contenidoFormulario {
+  margin-top: 50px;
+  border-radius: 30px;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.btnFormulario {
+  background-image: linear-gradient(
+    to right,
+    #f09819 0%,
+    #edde5d 51%,
+    #f09819 100%
+  );
+  margin: 10px;
+  padding: 10px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(122, 122, 122);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  border-color: #edde5d;
+  color: black;
+}
+.btnFormulario:hover {
+  background-position: right center;
+  color: white;
+  text-decoration: none;
+  border-color: #f09819;
+}
+
+.contenedorPeliculas {
+  margin-top: 50px;
+  border-radius: 30px;
+
+  padding: 20px;
+  background-color: #00000070;
+  background-image: linear-gradient(
+    0deg,
+    #00000070 0%,
+    #4a4a4a70 50%,
+    #acacac70 100%
+  );
+}
+
+.boxPelicula {
+  max-width: 500px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #f0f0f0;
+}
+
+@media screen and (max-width: 568px) {
+  .contenedorPeliculas {
+    border-radius: 0px;
+  }
+
+  .footer {
+    margin-top: 0px;
+  }
+}
