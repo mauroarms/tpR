@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Container } from "react-bootstrap"
 import Footer from "./components/Footer"
-import "./app.css"
+import "./App.css"
 import Formulario from "./components/Formulario"
 
 function App() {
