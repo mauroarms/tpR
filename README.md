@@ -4,6 +4,7 @@ En este programa se creó un formulario de peliculas el cual posee los campos ti
 
 # Vista Previa
 
+![imagen](https://github.com/mauroarms/tpReactEjer10/assets/95541436/26dd8533-f035-4d28-b4ee-2dbe59336e7d)
 
 
 ## Tecnologias
